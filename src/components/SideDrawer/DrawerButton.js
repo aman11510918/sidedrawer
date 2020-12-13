@@ -9,7 +9,6 @@ export default class DrawerButton extends Component {
     };
   }
   menuBurger = () => {
-    console.log("toggle menu open", this.state.isOpen);
     if (!this.state.isOpen) {
       this.setState((prevState) => {
         return { isOpen: !prevState.isOpen };
